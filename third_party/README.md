@@ -1,9 +1,3 @@
----
-title: Third-party code used by omnid
-updated: 2026-10-01
-weaver_hash: 980d5406fadb71f3c991aeb867ed7bed503ae518283ee1babff6db76f9868945
-weaver_imported: 2026-10-09T22:22:09+00:00
----
 # Third-party code used by omnid
 
 | Component | Version | Licence | Where |
