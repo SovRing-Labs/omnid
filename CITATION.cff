@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "omnid: one lightweight server for local embeddings, a hardened web face and an MCP face"
+version: 0.1.0
+abstract: "One C++ binary: local text embeddings (nomic-embed-text v1.5, BitNet-embedding-270M) on the llama.cpp engine, forwarding to optional tool-executor and head back ends over Unix sockets, a hardened path-routing web face with SSE passthrough, and a stdio MCP face. Published as prior art."
+authors:
+  - family-names: "De Santiago"
+    given-names: "Juan Carlos"
+license: Apache-2.0
+repository-code: "https://github.com/SovRing-Labs/omnid"
+keywords: [local embeddings, MCP, llama.cpp, reverse proxy, agents]

@@ -1,0 +1,8 @@
+omnid
+omnid.new
+*.pre-oss-*
+*.backup
+__pycache__/
+.pytest_cache/
+*.gguf
+*.so

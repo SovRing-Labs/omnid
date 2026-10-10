@@ -1,0 +1,10 @@
+omnid
+Copyright 2026 Juan Carlos De Santiago
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product includes software developed by third parties, used under their own licences:
+  - nlohmann/json 3.11.2 (MIT), vendored in third_party/nlohmann/ — Copyright (c) 2013-2022 Niels Lohmann
+  - cpp-httplib (MIT), compiled from the llama.cpp vendor tree of a bitnet.cpp checkout — Copyright (c) 2017 yhirose
+  - llama.cpp / ggml (MIT), linked from a microsoft/BitNet checkout
+No model weights are distributed. See third_party/README.md.
