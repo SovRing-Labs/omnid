@@ -1,0 +1,19 @@
+# omnid
+
+> One small C++ binary that gives local agents, tools and web apps a single front door: local text embeddings, a hardened web face and a stdio MCP face.
+
+Setup: `git clone --depth 1 https://github.com/SovRing-Labs/omnid && cd omnid && python3 -m venv .venv && . .venv/bin/activate && python -m pip install -q numpy pytest && BITNET_DIR=~/projects/bitnet ./build.sh && python3 -m pytest -q tests` (expect: 0 failed).
+Licence: Apache-2.0.
+
+## Docs
+- [README.md](https://raw.githubusercontent.com/SovRing-Labs/omnid/main/README.md)
+- [DOSSIER.md](https://raw.githubusercontent.com/SovRing-Labs/omnid/main/DOSSIER.md)
+- [TECHNICAL-DISCLOSURE.md](https://raw.githubusercontent.com/SovRing-Labs/omnid/main/TECHNICAL-DISCLOSURE.md)
+- [PROVENANCE.md](https://raw.githubusercontent.com/SovRing-Labs/omnid/main/PROVENANCE.md)
+- [CITATION.cff](https://raw.githubusercontent.com/SovRing-Labs/omnid/main/CITATION.cff)
+- [AGENTS.md](https://raw.githubusercontent.com/SovRing-Labs/omnid/main/AGENTS.md)
+- [STATUS.md](https://raw.githubusercontent.com/SovRing-Labs/omnid/main/STATUS.md)
+- [suite.json](https://raw.githubusercontent.com/SovRing-Labs/omnid/main/suite.json)
+
+## Optional
+- [SovRing umbrella (all repos, MCP setup)](https://github.com/SovRing-Labs/SovRing)
