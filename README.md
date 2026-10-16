@@ -1,5 +1,11 @@
 # omnid — one lightweight server for local embeddings, a hardened web face and an MCP face
 
+<!-- status-badges (REPO-ACCESS-C) -->
+[![status: pre-alpha (under development)](https://img.shields.io/badge/status-pre--alpha%20%28under%20development%29-orange)](STATUS.md) **Status: pre-alpha, under development** — what works today, what is untested and what failed: [`STATUS.md`](STATUS.md)
+
+[![defensive publication: DOI 10.5281/zenodo.23282761](https://img.shields.io/badge/defensive%20publication-DOI%2010.5281%2Fzenodo.23282761-blue)](https://doi.org/10.5281/zenodo.23282761) **Defensive publication:** [`TECHNICAL-DISCLOSURE.md`](TECHNICAL-DISCLOSURE.md) · DOI [10.5281/zenodo.23282761](https://doi.org/10.5281/zenodo.23282761)
+<!-- /status-badges -->
+
 omnid is one small C++ binary that gives local agents, tools and web apps a single front door:
 
 - **embed** — local text embeddings, no cloud: nomic-embed-text v1.5 (768-d; `search_document:` / `search_query:`

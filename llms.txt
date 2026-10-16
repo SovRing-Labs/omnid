@@ -1,8 +1,9 @@
 # omnid
 
-> One small C++ binary that gives local agents, tools and web apps a single front door: local text embeddings, a hardened web face and a stdio MCP face.
+> One small C++ server for local embeddings (nomic-embed-text v1.5 and BitNet-embedding-270M on llama.cpp), a hardened local web face and an MCP face. Models and the bitnet.cpp tree are not shipped.
 
 Setup: `git clone --depth 1 https://github.com/SovRing-Labs/omnid && cd omnid && python3 -m venv .venv && . .venv/bin/activate && python -m pip install -q numpy pytest && BITNET_DIR=~/projects/bitnet ./build.sh && python3 -m pytest -q tests` (expect: 0 failed).
+Status: pre-alpha, under development — read STATUS.md before relying on a number.
 Licence: Apache-2.0.
 
 ## Docs
